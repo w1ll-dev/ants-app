@@ -32,11 +32,11 @@ export function Home() {
     if (raceGlobalState === RaceStatus.AllCalculated) return 'Run Again';
 
     if (raceGlobalState === RaceStatus.NotYetRun && !!ants?.length)
-      return 'Start Race';
+      return '🐜 Start Race 🏁';
 
     if (isError) return 'Error loading ants';
 
-    return 'Load Ants';
+    return '🐜 Load Ants';
   }, [ants?.length, isError, isLoading, raceGlobalState]);
 
   const sortAntsByWinLikehood = useCallback(
