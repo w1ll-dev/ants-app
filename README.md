@@ -22,7 +22,10 @@ Also it's nice to have an editor to work with the code like [VSCode](https://cod
 
 ```bash
 # Clone this repository
-$ git clone <https://github.com/w1ll-dev/ants-app>
+$ git clone https://github.com/w1ll-dev/ants-app
+
+# Enter the folder
+$ cd ants-app
 
 # Install the dependencies
 $ yarn
