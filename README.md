@@ -1,8 +1,8 @@
-# 🐜 Ants Race App
+# 🐜 Ants Race App 🏁
 
 ## Description
 
-<p align="center">🐜 Very special app for purveyors of the competitive ant racing scene who wish to view statistics related to the competing ants and the races in which they compete.🐜</p>
+<p align="center">🐜 🏁 Very special app for purveyors of the competitive ant racing scene who wish to view statistics related to the competing ants and the races in which they compete.</p>
 
 <h4 align="center"> 
 	🚧  Ants Race App 🚀 Building...  🚧
