@@ -9,7 +9,6 @@ export const Profile = styled.View`
   padding: 15px 25px;
 `;
 
-export const Row = styled.View`
-  flex-direction: row;
-  flex-wrap: wrap;
+export const Flexible = styled.View`
+  flex: 1;
 `;

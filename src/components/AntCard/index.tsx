@@ -1,9 +1,8 @@
 import { useMemo } from 'react';
-import { View } from 'react-native';
 import { RaceStatus } from '../../constants';
 import { AntInfo } from '../../styles/typography';
 import AntProfile from '../AntProfile';
-import { Container, Profile } from './styles';
+import { Container, Flexible, Profile } from './styles';
 
 export interface AntCardProps extends Ant {
   winLikehood?: number;
@@ -29,7 +28,7 @@ export function AntCard({
       <Profile>
         <AntProfile color={color} height={70} />
       </Profile>
-      <View>
+      <Flexible>
         <AntInfo>
           Name: <AntInfo>{name}</AntInfo>
         </AntInfo>
@@ -45,7 +44,7 @@ export function AntCard({
         <AntInfo>
           Length: <AntInfo>{length}</AntInfo>
         </AntInfo>
-      </View>
+      </Flexible>
     </Container>
   );
 }

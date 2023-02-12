@@ -7,7 +7,7 @@ export const ButtonLabel = styled.Text`
 
 export const AntInfo = styled.Text<{ bold?: boolean }>`
   font-family: ${({ theme }) => theme.fonts.default};
-  font-size: 12px;
+  font-size: 13px;
 
   ${({ bold }) =>
     bold &&
