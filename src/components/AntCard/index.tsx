@@ -18,7 +18,7 @@ export function AntCard({
   winLikehoodCalcStatus = RaceStatus.NotYetRun
 }: AntCardProps) {
   const winLikehoodLabel = useMemo(() => {
-    if (winLikehood) return `${(winLikehood * 100)?.toFixed(2)}%`;
+    if (winLikehood) return `${(winLikehood * 100).toFixed(2)}%`;
 
     return winLikehoodCalcStatus;
   }, [winLikehood, winLikehoodCalcStatus]);
