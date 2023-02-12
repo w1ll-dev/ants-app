@@ -30,11 +30,18 @@ $ cd ants-app
 # Install the dependencies
 $ yarn
 
-# Run the application on Android
-$ yarn android
+# Run the application
+$ yarn start
 
-# Run the application on ios
-$ yarn ios
+# Run the application on Android device
+
+## Download[expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR&gl=US) on your android device.
+## Scan the qrcode returned by expo in your expo app.
+
+# Run the application on ios device
+
+## Download[expo](https://apps.apple.com/br/app/expo-go/id982107779) on your ios device.
+## Scan the qrcode returned by expo in your expo app.
 ```
 
 ### 🛠 Techs
