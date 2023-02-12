@@ -1,5 +1,9 @@
 # 🐜 Ants Race App 🏁
 
+## Demo
+
+[You can see an example video of its use here.](https://youtu.be/Aj3-hszhVGU)
+
 ## Description
 
 <p align="center">🐜 🏁 Very special app for purveyors of the competitive ant racing scene who wish to view statistics related to the competing ants and the races in which they compete.</p>
@@ -7,10 +11,6 @@
 <h4 align="center"> 
 	🚧  Ants Race App 🚀 Building...  🚧
 </h4>
-
-## Demo
-
-[You can see an example video of its use here.](https://youtu.be/Aj3-hszhVGU)
 
 ### Prerequisite
 
