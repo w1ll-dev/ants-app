@@ -24,7 +24,7 @@ export function Home() {
     enabled: false
   });
 
-  const label = useMemo(() => {
+  const raceButtonLabel = useMemo(() => {
     if (isLoading) return 'Loading';
 
     if (raceGlobalState === RaceStatus.InProgress) return 'Race in Progress';
@@ -100,7 +100,7 @@ export function Home() {
     }
   }, [ants, sortAntsByWinLikehood]);
 
-  const handlePress = useCallback(() => {
+  const handleRaceButtonPress = useCallback(() => {
     if (!ants) return refetch();
 
     onStartRace();
@@ -134,8 +134,8 @@ export function Home() {
       />
       <Footer>
         <Button
-          label={label}
-          onPress={handlePress}
+          label={raceButtonLabel}
+          onPress={handleRaceButtonPress}
           disabled={raceGlobalState === RaceStatus.InProgress}
         />
       </Footer>
