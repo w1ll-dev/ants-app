@@ -15,7 +15,7 @@
 ### Prerequisite
 
 Before starting, you will need to have the following tools installed on your machine:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/)
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/), [Expo](https://expo.dev/)
 Also it's nice to have an editor to work with the code like [VSCode](https://code.visualstudio.com/)
 
 ### 📱 Running the app (Expo)
