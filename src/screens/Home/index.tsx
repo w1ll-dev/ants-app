@@ -1,6 +1,6 @@
 import { useNavigation } from '@react-navigation/native';
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { FlatList, ListRenderItemInfo } from 'react-native';
+import { Alert, FlatList, ListRenderItemInfo } from 'react-native';
 import { useQuery } from 'react-query';
 import { AntCard, AntCardProps } from '../../components/AntCard';
 import { Button } from '../../components';
@@ -34,7 +34,13 @@ export function Home() {
     if (raceGlobalState === RaceStatus.NotYetRun && !!ants?.length)
       return '🐜 Start Race 🏁';
 
-    if (isError) return 'Error loading ants';
+    if (isError) {
+      Alert.alert(
+        '❌ Error loading ants, please check your connection or try again later.'
+      );
+
+      return 'Error loading ants';
+    }
 
     return '🐜 Load Ants';
   }, [ants?.length, isError, isLoading, raceGlobalState]);

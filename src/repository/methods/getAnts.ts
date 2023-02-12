@@ -9,6 +9,6 @@ export async function getAntsList(): Promise<Ant[]> {
     const response: AntsApiResponseProtocol = await requestAdapter(query);
     return response.ants;
   } catch (error) {
-    throw new ServerError('Server Error');
+    throw new ServerError('Error loading ants list.');
   }
 }
